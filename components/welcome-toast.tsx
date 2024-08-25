@@ -8,7 +8,7 @@ export function WelcomeToast() {
     // ignore if screen height is too small
     if (window.innerHeight < 650) return;
     if (!document.cookie.includes('welcome-toast=2')) {
-      toast('🛍️ Welcome to Next.js Commerce!', {
+      toast('🛍️ Welcome to Oti commerce!', {
         id: 'welcome-toast',
         duration: Infinity,
         onDismiss: () => {
@@ -16,13 +16,14 @@ export function WelcomeToast() {
         },
         description: (
           <>
-            This is a high-performance, SSR storefront powered by Shopify, Next.js, and Vercel.{' '}
+            This is a high-performance, storefront built Oti{' '}
             <a
-              href="https://vercel.com/templates/next.js/nextjs-commerce"
+            // add your website domain name here
+              href="#"
               className="text-blue-600 hover:underline"
               target="_blank"
             >
-              Deploy your own
+              Reach out me to get one like this
             </a>
             .
           </>
