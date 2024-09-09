@@ -20,7 +20,8 @@
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "sonner": "^1.5.0"
+    "sonner": "^1.5.0",
+    "tailwind-scrollbar": "^3.1.0"
   },
   "devDependencies": {
     "@tailwindcss/container-queries": "^0.1.1",
