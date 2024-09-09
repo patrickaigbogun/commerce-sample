@@ -36,7 +36,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/container-queries'),
     require('@tailwindcss/typography'),
-    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar')({ nocompatible: true, preferredStrategy: 'pseudoelements' }),
     plugin(({ matchUtilities, theme }) => {
       matchUtilities(
         {
